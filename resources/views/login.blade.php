@@ -64,14 +64,14 @@
                                         width="25">
                                 </span>
                                 <span class="app-brand-text demo text-body fw-bolder"
-                                    style="text-transform: capitalize">WA Blast</span>
+                                    style="text-transform: capitalize">ADMIN</span>
                             </a>
                         </div>
                         <!-- /Logo -->
                         <h4 class="mb-2">Selamat Datang Kembali! 👋</h4>
                         <p class="mb-4">Silahkan login untuk masuk ke Aplikasi WA Blast</p>
 
-                        <form id="formAuthentication" class="mb-3" action="{{ route('postlogin') }}" method="POST">
+                        <form id="formAuthentication" class="mb-3" action="" method="POST">
                             @csrf
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email or Username</label>
